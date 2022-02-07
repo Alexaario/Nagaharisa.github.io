@@ -17,5 +17,5 @@ div#slider figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 5s slideshow infinite; 
+  animation: 10s slideshow infinite; 
 }
