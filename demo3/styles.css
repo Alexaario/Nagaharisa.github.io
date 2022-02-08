@@ -1,7 +1,10 @@
 ﻿@import url(http://fonts.googleapis.com/css?family=Abel);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+h1, h2, p {
+    font-size: 170%;
+}
 
-body { background-color:#fefdfb; color: #555; font-family: 'Abel', sans-serif; font-size: 93%; font-weight:normal;margin: 0; }
+body { background-color:#fefdfb; color: #555; font-family: 'Abel', sans-serif; font-size: 100%; font-weight:normal;margin: 0; }
 a:link, a:visited, a:active{ color:inherit; text-decoration: none; }
 a:hover {color: #000; text-decoration:underline; }
 
@@ -11,13 +14,13 @@ a:hover {color: #000; text-decoration:underline; }
 nav {
     display: table;
     table-layout: fixed;
-    width: 75%;
+    width: 45%;
     margin: 0 auto;
 }
 
 #menu {
     width:100%;
-    min-height:35px;
+    min-height:40px;
     background-color: #000;
     position:fixed;
     z-index:100;
@@ -78,7 +81,8 @@ ul#topnav li> ul > li{
 #pageheader {
     display:table;
     width:80%;
-    margin:auto;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .section {
@@ -124,7 +128,7 @@ ul#topnav li> ul > li{
 }
 
 .pageitem .col {
-     padding:0 2% 0 1%;    
+    padding:0 2% 0 1%;    
 }
 
 .col {
@@ -142,8 +146,8 @@ ul#topnav li> ul > li{
 }
 
 #footer p {
-     text-align:left;
-     padding:0;
+    text-align:left;
+    padding:0;
 }
 
 #credits {
@@ -176,7 +180,6 @@ ul#topnav li { display: block; text-align:center; margin:0; background-color:#00
 
 ul#topnav li a { display: block; padding-right:0%; padding-bottom:5px; text-decoration:none;}
 ul#topnav li a:hover {text-decoration:underline;}
-
 
 ul#topnav li> ul { display:table; float:none; table-layout:fixed; margin:0 auto;}
 ul#topnav li> ul > li {padding-left:10px; }

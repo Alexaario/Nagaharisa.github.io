@@ -1,11 +1,10 @@
 @keyframes slideshow {
-0% { left: 0%; }
-20% { left: 0%; }
-40% { left: -100%; }
-55% { left: -100%; }
-70% { left: -200%; }
-85% { left: -200%; }
-100% { left: -300%; }
+0% { left: 100%;}
+25% { left: 0%; }
+50% { left: -100%; }
+75% { left: -200%; }
+99.99% { left: -300%; }
+100% { left: 100%; }
 }
 body { margin: 0; } 
 div#slider { overflow: hidden; }
@@ -17,5 +16,5 @@ div#slider figure {
   left: 0;
   text-align: left;
   font-size: 0;
-  animation: 20s slideshow infinite; 
+  animation: 5s slideshow infinite; 
 }
