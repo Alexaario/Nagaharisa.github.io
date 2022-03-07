@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", onkoKirjautunut)
 
 function onkoKirjautunut() {
     let kirjautunut = localStorage.getItem("kirjautunut");
+
     if (kirjautunut) {
         document.getElementById("tervetuloTeksti").textContent += ` ${localStorage.getItem("nimi")}`
         document.getElementById("kirjautumisLomake").style.display = "none"
@@ -16,7 +17,6 @@ function kirjaudu() {
 }
 
 function kirjauduUlos() {
-    localStorage.setItem("nimi", "")
-    localStorage.setItem("kirjautunut", "")
+    localStorage.clear()
     window.location.reload();
 }
